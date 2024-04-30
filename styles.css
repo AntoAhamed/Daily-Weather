@@ -43,12 +43,14 @@ header div img {
 header div h1 {
     margin: 1.5rem;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 800;
+    letter-spacing: 0;
 }
 
 /*Style search feature starts here*/
 #search-form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 2rem;
 }
@@ -204,4 +206,12 @@ footer {
     padding: 15px;
     text-align: center;
     font-size: 1rem;
+    padding: 2%;
+}
+
+/*To give responsiveness*/
+@media screen and (max-width: 768px) {
+    .primary div:nth-child(1) {
+        font-size: 50px;
+    }
 }
