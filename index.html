@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Weather</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/icon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Daily Weather</h1>
+        <div>
+            <img src="./Assets/icon.png" alt="">
+            <h1>Daily Weather</h1>
+        </div>
         <form id="search-form">
             <input type="text" id="search-input" placeholder="Enter location">
             <button type="submit">Search</button>
@@ -18,17 +22,17 @@
     </header>
     <main>
         <section id="current-weather">
-            <!-- Current weather information will be displayed here -->
+            <!-- Current weather will be displayed here -->
         </section>
         <section id="hourly-forecast">
-            <!-- 24-hour forecast information will be displayed here -->
+            <!-- 24-hour forecast will be displayed here -->
         </section>
         <section id="weekly-forecast">
-            <!-- 7-day forecast information will be displayed here -->
+            <!-- 7-day forecast will be displayed here -->
         </section>
     </main>
     <footer>
-        <p>Powered by WeatherAPI</p>
+        <p>&copy;All rights Reserved | Powered by WeatherAPI | April 2024</p>
     </footer>
     <script src="main.js"></script>
 </body>
